@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <title>Atividadezinha</title>
+    <style>
+        #atividade{
+            background-color: blue;
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+            gap: 40px;
+        }
+        #caixa_esq{
+            background-color: brown;
+            flex-direction: column;
+        }
+        #caixa_dir{
+            background-color: orange;
+            justify-content: space-evenly;
+            
+        }
+        .caixona{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 10px;
+            width: 50%;
+        }
+       .img_esq{
+        width: 120px;
+        height: 100px;
+       }
+       .img_dir{
+        width: 100px;
+        height: 250px;
+       }
+
+    </style>
+</head>
+<body>
+ 
+    <div id="atividade">
+    
+        <div id="caixa_esq" class="caixona">
+            <div><img class="img_esq" src="img/pocoyo.jpg" alt="pocoyo"></div>
+            <div><img class="img_esq" src="img/relampaguinho.jfif" alt="relampaguinho"></div>
+            <div><img class="img_esq" src="img/cebolinha.jpg" alt="cebolinha"></div>
+        </div>
+        <div id="caixa_dir" class="caixona">
+            <div><img class="img_dir" src="img/veighzada.jpg" alt="veighzada"></div>
+            <div><img class="img_dir" src="img/taylorzada.jpg" alt="taylorzada"></div>
+            <div><img class="img_dir" src="img/leclerc.png" alt="pocoyo"></div>
+        </div>
+    </div>
+</body>
+</html>
